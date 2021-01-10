@@ -8,7 +8,7 @@ Kody te służyły mi podczas nauki programowania i nawet teraz, gdy mam _dziur�
 
 ![Kotlin](https://github.com/AnnaShino/Przykladowe_Kody/blob/main/Przyk%C5%82ad.png)
 
-Dodatkowo znajdziesz tu PDF w którym zestawiłam dwa języki (**JAVA** i **KOTLIN**) w celu ich porównania.
+Dodatkowo znajdziesz tu PDF w którym zestawiłam dwa języki (**JAVA** i **KOTLIN**). Zapraszam do lektury jeżeli dalej wachasz sięjaki język wybrać :) 
 
 ![KotlinVSJava](https://github.com/AnnaShino/Przykladowe_Kody/blob/main/Kotlin%20vs%20Java.png)
 
