@@ -1,0 +1,41 @@
+Kody tworzone podczas zajęć z programowania w KOTLINIE
+
+1) Wystawianie oceny
+
+fun main(args:Array<String>) {
+    print("Ile procent zdobył student?")
+    var procenty: Int = readLine()!!.toInt()
+    when(procenty){
+        in 91 .. 100 -> println("Zdobyta przez studenta ocena to 5.0")
+        in 81 .. 90 -> println("Zdobyta przez studenta ocena to 4.5")
+        in 71 .. 80 -> println("Zdobyta przez studenta ocena to 4.0")
+        in 61 .. 70 -> println("Zdobyta przez studenta ocena to 3.5")
+        in 51 .. 60 -> println("Zdobyta przez studenta ocena to 3.0")
+        in 50 downTo 0 -> println("Student nie zdał")
+        else -> println("Nie wiem o co chodzi")
+    }
+}
+
+2) Randomowy ciąg geometryczny
+
+fun main(args: Array<String>) {
+    val minimum : Int=0
+    val maximum : Int=100
+    var suma = 0.0
+    var an = 0.0
+    var a1 = (Math.random()*((maximum-minimum))+minimum)
+    val r = (Math.random()*((maximum-minimum))+minimum)
+
+    println("Kolejne wartości dla ciągu geometrycznego zaczynającego się od $a1 i z r o wartości $r to: ")
+
+    val tablica : Array<Int> = (Array(10, { n -> n *1}))
+
+    for (n : Int in 1..tablica.size){
+        an  = a1 + (n - 1) *r
+        println(an)
+        suma += an
+    }
+    println("A suma tego ciągu jest równa $suma")
+}
+
+3)
